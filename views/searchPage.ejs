@@ -1,0 +1,9 @@
+<h2>The search appears here!</h2>
+
+<ul>
+    <% data.Search.forEach(function(movie){ %>
+        <li><%= movie.Title %></li>
+    <% }); %>
+</ul>
+
+<a href="/">Search Again</a>
